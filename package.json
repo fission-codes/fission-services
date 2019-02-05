@@ -1,0 +1,53 @@
+{
+  "name": "fission-services",
+  "version": "0.1.0",
+  "description": "Open FISSION smart contract services",
+  "keywords": [
+    "ethereum",
+    "solidity",
+    "open-service",
+    "fission",
+    "eip",
+    "erc",
+    "1066"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fission-suite/fission-services.git"
+  },
+  "bugs": {
+    "url": "https://github.com/fission-suite/fission-services/issues"
+  },
+  "main": "index.js",
+  "license": "Apache-2.0",
+  "author": "Brooklyn Zelenka <be.zelenka@gmail.com>",
+  "scripts": {
+    "pretest": "./ensure-ganache-running.sh || (npm run start:testrpc &)",
+    "test": "truffle test",
+    "test:lint": "eslint -c .eslintrc . --color=true --quiet",
+    "test:lint:fix": "eslint -c .eslintrc . --color=true --quiet --fix",
+    "truffle:compile": "truffle compile",
+    "truffle:debug": "truffle debug",
+    "truffle:migrate": "truffle migrate",
+    "start:testrpc": "ganache-cli -u 0",
+    "coverage": "./node_modules/.bin/solidity-coverage"
+  },
+  "devDependencies": {
+    "eslint": "^5.12.1",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-chai-friendly": "^0.4.1",
+    "eslint-plugin-import": "^2.15.0",
+    "ethereum-localized-messaging": "^1.1.1",
+    "ganache-cli": "^6.2.5",
+    "mocha": "^5.2.0",
+    "solhint": "^1.5.0",
+    "solidity-coverage": "^0.5.11",
+    "truffle": "^5.0.2"
+  },
+  "engines": {
+    "node": "10.11"
+  },
+  "dependencies": {
+    "fission-codes": "1.0.0-rc1"
+  }
+}
