@@ -22,7 +22,7 @@
 
 Open services are the combination of open source with shared state. There are many cases where the state is equally (or more) important than the code. These are long-running, hosted services that consolidate state and interoperate with others to be more than the sum of their parts.
 
-![](./static/diagrams/network.png)
+![](./static/diagrams/fission-network.png)
 
 # Services
 
