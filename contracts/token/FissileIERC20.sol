@@ -11,7 +11,7 @@ interface FissileIERC20 {
 
   function transferFrom(address from, address to, uint256 value) external returns (byte status);
 
-  function totalSupply() external view returns (uint256 value);
+  function totalSupply() external view returns (byte status, uint256 value);
 
   function balanceOf(address who) external view returns (byte status, uint256 balance);
 
