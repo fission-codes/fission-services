@@ -1,6 +1,7 @@
-![](https://github.com/fission-suite/fission-services/raw/master/static/FISSION-logomark.svg?sanitize=true)
+<div align="center">
+<img src="https://github.com/fission-codes/kit/blob/main/images/logo-icon-coloured.png?raw=true" width="100" />
 
-## Open Services for Web3
+<h1>Open Services for Web3</h1>
 
 [`FISSION`](https://fission.codes) is a set of useful status codes and translated messages to connect smart contracts of all kinds
 
@@ -12,6 +13,7 @@
 [![ERC-1444](https://img.shields.io/badge/♢%20ERC-1444-414.svg)](https://github.com/ethereum/EIPs/blob/56f86922bbd3777174cdbf2e0d01d38c6306b9c0/EIPS/eip-1444.md)
 [![ECIP-1050](https://img.shields.io/badge/♦%20ECIP-1050-41A.svg)](https://github.com/ethereumclassic/ECIPs/blob/1562567351ee0c2f163beac65b73fc6872313c6b/ECIPs/ECIP-1050.md)
 [![Built with ❤ by SPADE Co](https://img.shields.io/badge/built%20with%20%F0%9F%92%96%20by-SPADE%20Co-purple.svg)](https://spade.builders)
+</div>
 
 # Table of Contents
 
